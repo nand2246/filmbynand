@@ -18,6 +18,7 @@ img {
     width: 100%;
 }
 .photos {
+    margin: 10px;
     margin-top: 120px;
 }
 .photos > div {
@@ -25,4 +26,7 @@ img {
 }
 .navbar-brand {
     color: azure;
+}
+.carousel {
+    margin: auto;
 }
