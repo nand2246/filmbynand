@@ -9,9 +9,6 @@ nav {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 30px;
-    background-color: white;
-    color: white;
-    mix-blend-mode:multiply;
 }
 a.navbar-brand {
     font-size: 45px;
