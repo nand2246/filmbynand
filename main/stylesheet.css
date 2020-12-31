@@ -24,9 +24,23 @@ img {
 .photos > div {
     margin-bottom: 10px;
 }
-.navbar-brand {
-    color: azure;
-}
 .carousel {
     margin: auto;
+}
+#startingPageCarousel {
+    margin-top: 100px;
+}
+@media (max-width: 575px) {
+    a.navbar-brand {
+        font-size: 33px;
+    }
+    .navbar-toggler {
+        width: 25px;
+        text-align: center;
+        padding: 0px;
+    }
+    .navbar-toggler-icon {
+        margin-left: 0px;
+        width: 10px;
+    }
 }
