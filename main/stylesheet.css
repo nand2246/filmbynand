@@ -9,6 +9,7 @@ nav {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 30px;
+	box-shadow: 0px 0px 20px 5px;
 }
 a.navbar-brand {
     font-size: 45px;
