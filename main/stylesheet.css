@@ -2,17 +2,20 @@
 
 body {
     font-family: 'Playfair Display', serif;
-
+    text-align: center;
 }
 nav {
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 30px;
-	box-shadow: 0px 0px 20px 5px;
+	box-shadow: 0 0 20px 5px;
 }
 a.navbar-brand {
     font-size: 45px;
+}
+.first-on-page {
+    margin-top: 120px !important;
 }
 img {
     margin: 0;
@@ -20,7 +23,6 @@ img {
 }
 .photos {
     margin: 10px;
-    margin-top: 120px;
 }
 .photos > div {
     margin-bottom: 10px;
@@ -28,20 +30,21 @@ img {
 .carousel {
     margin: auto;
 }
-#startingPageCarousel {
-    margin-top: 100px;
+#nand {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0;
+    margin-bottom: 25px;
 }
 @media (max-width: 575px) {
     a.navbar-brand {
-        font-size: 33px;
+        font-size: 34px;
     }
     .navbar-toggler {
         width: 25px;
-        text-align: center;
-        padding: 0px;
+        padding: 0;
     }
     .navbar-toggler-icon {
-        margin-left: 0px;
         width: 10px;
     }
 }

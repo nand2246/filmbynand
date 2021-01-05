@@ -2,89 +2,96 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Nand Patel">
-  <title>Film By Nand</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="" name="description">
+    <meta content="Nand Patel" name="author">
+    <title>Film By Nand</title>
 
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link href="https://getbootstrap.com/docs/5.0/examples/carousel/" rel="canonical">
 
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
-  <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="main/stylesheet.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="main/stylesheet.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <main>
-	  <!--Navbar-->
+<main>
+
+    <!--Navbar-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Film By Nand</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="main/photos.html">Photos</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Film By Nand</a>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler"
+                    data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a aria-current="page" class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="main/photos.html">Photos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                           id="navbarDropdown"
+                           role="button">
+                            Dropdown
+                        </a>
+                        <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
-	  <!--Carousel of Photos-->
-    <div id="startingPageCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./images/5 - 2020 June/2020 June-2.jpg" class="d-block w-100" alt="">
-        </div>
-        <div class="carousel-item">
-          <img src="./images/5 - 2020 June/2020 June-3.jpg" class="d-block w-100" alt="">
-        </div>
-        <div class="carousel-item">
-          <img src="./images/5 - 2020 June/2020 June-5.jpg" class="d-block w-100" alt="">
-        </div>
-      </div>
-
-      <a class="carousel-control-prev" href="#startingPageCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#startingPageCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </a>
+    <div class="container-fluid">
+        <img alt="nand patel" class="first-on-page" id="nand" src="./images/nand.jpg">
     </div>
+    <h1>Nand Patel</h1>
+    <p>
+        I am an amateur
+    </p>
+    <!--Carousel of Photos-->
+    <div class="carousel slide" data-bs-ride="carousel" id="startingPageCarousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img alt="" class="d-block w-100" src="./images/5 - 2020 June/2020 June-2.jpg">
+            </div>
+            <div class="carousel-item">
+                <img alt="" class="d-block w-100" src="./images/5 - 2020 June/2020 June-3.jpg">
+            </div>
+            <div class="carousel-item">
+                <img alt="" class="d-block w-100" src="./images/5 - 2020 June/2020 June-5.jpg">
+            </div>
+        </div>
 
-  </main>
+        <a class="carousel-control-prev" data-bs-slide="prev" href="#startingPageCarousel" role="button">
+            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" data-bs-slide="next" href="#startingPageCarousel" role="button">
+            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+</main>
 
 
-  <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
 
 
 </body>
