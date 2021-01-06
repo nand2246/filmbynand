@@ -11,10 +11,10 @@
     <link href="https://getbootstrap.com/docs/5.0/examples/carousel/" rel="canonical">
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="main/stylesheet.css" rel="stylesheet">
+    <link href="../css/stylesheet.css" rel="stylesheet">
 </head>
 
 <body>
@@ -36,7 +36,7 @@
                         <a aria-current="page" class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="main/photos.html">Photos</a>
+                        <a class="nav-link" href="photos.html">Photos</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
@@ -58,40 +58,42 @@
         </div>
     </nav>
 
-    <div class="container-fluid">
-        <img alt="nand patel" class="first-on-page" id="nand" src="./images/nand.jpg">
+    <div class="container-fluid profile-pic-row">
+        <img alt="nand patel" class="first-on-page" id="nand" src="../images/nand.jpg">
     </div>
     <h1>Nand Patel</h1>
     <p>
         I am an amateur
     </p>
     <!--Carousel of Photos-->
-    <div class="carousel slide" data-bs-ride="carousel" id="startingPageCarousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img alt="" class="d-block w-100" src="./images/5 - 2020 June/2020 June-2.jpg">
+    <div class="container-fluid">
+        <div class="carousel slide" data-bs-ride="carousel" id="startingPageCarousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img alt="" class="d-block w-100" src="../images/2020June/2020june2.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img alt="" class="d-block w-100" src="../images/2020June/2020june3.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img alt="" class="d-block w-100" src="../images/2020June/2020june5.jpg">
+                </div>
             </div>
-            <div class="carousel-item">
-                <img alt="" class="d-block w-100" src="./images/5 - 2020 June/2020 June-3.jpg">
-            </div>
-            <div class="carousel-item">
-                <img alt="" class="d-block w-100" src="./images/5 - 2020 June/2020 June-5.jpg">
-            </div>
-        </div>
 
-        <a class="carousel-control-prev" data-bs-slide="prev" href="#startingPageCarousel" role="button">
-            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" data-bs-slide="next" href="#startingPageCarousel" role="button">
-            <span aria-hidden="true" class="carousel-control-next-icon"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
+            <a class="carousel-control-prev" data-bs-slide="prev" href="#startingPageCarousel" role="button">
+                <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" data-bs-slide="next" href="#startingPageCarousel" role="button">
+                <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
     </div>
 </main>
 
 
-<script src="js/bootstrap.bundle.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
 
 
 </body>

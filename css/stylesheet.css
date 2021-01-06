@@ -29,12 +29,16 @@ img {
 }
 .carousel {
     margin: auto;
+    max-width: 1300px;
 }
 #nand {
     width: 200px;
     border-radius: 50%;
     box-shadow: 0 0 10px 0;
     margin-bottom: 25px;
+}
+.profile-pic-row {
+    background-color: springgreen;
 }
 @media (max-width: 575px) {
     a.navbar-brand {
