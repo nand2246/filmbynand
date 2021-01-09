@@ -38,7 +38,7 @@ img {
     margin-bottom: 25px;
 }
 .profile-pic-row {
-    background-color: springgreen;
+    /*background-color: springgreen;*/
 }
 @media (max-width: 575px) {
     a.navbar-brand {
