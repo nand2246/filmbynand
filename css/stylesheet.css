@@ -2,14 +2,13 @@
 
 body {
     font-family: 'Playfair Display', serif;
-    text-align: center;
 }
 nav {
     text-align: center;
     text-transform: uppercase;
     font-weight: 900;
     font-size: 30px;
-	box-shadow: 0 0 20px 5px;
+	box-shadow: 0 0 20px -5px;
 }
 a.navbar-brand {
     font-size: 45px;
@@ -34,11 +33,13 @@ img {
 #nand {
     width: 200px;
     border-radius: 50%;
-    box-shadow: 0 0 10px 0;
+    padding: 0;
     margin-bottom: 25px;
+    box-shadow: 0 0 20px -10px;
+    text-align: center;
 }
-.profile-pic-row {
-    /*background-color: springgreen;*/
+.centered {
+    text-align: center;
 }
 @media (max-width: 575px) {
     a.navbar-brand {
