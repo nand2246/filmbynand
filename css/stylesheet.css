@@ -2,6 +2,10 @@
 
 body {
     font-family: 'Playfair Display', serif;
+
+}
+::selection {
+    background: coral;
 }
 nav {
     text-align: center;
@@ -28,18 +32,32 @@ img {
 }
 .carousel {
     margin: auto;
-    max-width: 1300px;
+    background-color: blue;
 }
 #nand {
-    width: 200px;
+    width: 100%;
+    max-width: 150px;
     border-radius: 50%;
     padding: 0;
-    margin-bottom: 25px;
-    box-shadow: 0 0 20px -10px;
+    box-shadow: 0 0 20px -10px black;
     text-align: center;
 }
 .centered {
     text-align: center;
+}
+.profile {
+    background-color: #badbcc;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto auto 25px;
+    vertical-align: center;
+    font-size: x-large;
+}
+.profile h1 {
+    margin-top: 10px;
+    font-size: 200%;
+    font-weight: bold;
 }
 @media (max-width: 575px) {
     a.navbar-brand {
@@ -51,5 +69,8 @@ img {
     }
     .navbar-toggler-icon {
         width: 10px;
+    }
+    .profile {
+        text-align: center;
     }
 }
