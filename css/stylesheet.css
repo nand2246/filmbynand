@@ -58,6 +58,9 @@ img {
     font-size: 200%;
     font-weight: bold;
 }
+.container-xxl {
+    max-width: 1300px;
+}
 @media (max-width: 575px) {
     a.navbar-brand {
         font-size: 34px;
