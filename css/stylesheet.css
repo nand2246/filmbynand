@@ -45,9 +45,6 @@ img {
     box-shadow: 0 0 20px -10px black;
     text-align: center;
 }
-.centered {
-    text-align: center;
-}
 .profile {
     background-color: #badbcc;
     color: white;
@@ -64,6 +61,16 @@ img {
 }
 .container-xxl {
     max-width: 1300px;
+}
+.card {
+    overflow: hidden;
+}
+.card img {
+    width: 103%;
+    transition: 0.5s;
+}
+.card:hover img {
+    transform: scale(1.05);
 }
 @media (max-width: 575px) {
     a.navbar-brand {
