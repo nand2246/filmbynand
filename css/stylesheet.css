@@ -2,14 +2,21 @@
 
 body {
     font-family: 'Playfair Display', serif;
-    overflow: -moz-scrollbars-none;
+    margin-bottom: 25px;
 }
+
+.container-xxl {
+    margin-bottom: 25px;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
+
 ::selection {
     background: coral;
 }
+
 nav {
     text-align: center;
     text-transform: uppercase;
@@ -22,11 +29,14 @@ a.navbar-brand {
     font-size: 45px;
 }
 .first-on-page {
-    margin-top: 120px !important;
+    margin-top: 100px !important;
 }
 img {
     margin: 0;
     width: 100%;
+}
+.collections > div > a {
+    margin-bottom: 25px;
 }
 .photos {
     margin: 10px;
@@ -82,6 +92,9 @@ img {
     }
     .navbar-toggler-icon {
         width: 10px;
+    }
+    .first-on-page {
+        margin-top: 80px !important;
     }
     .profile {
         text-align: center;
