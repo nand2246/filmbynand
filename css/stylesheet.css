@@ -23,7 +23,7 @@ nav {
     font-weight: 900;
     font-size: 30px;
 	box-shadow: 0 0 20px -5px;
-    padding: 0px !important;
+    padding: 0 !important;
 }
 a.navbar-brand {
     font-size: 45px;
@@ -74,10 +74,13 @@ img {
 }
 .card {
     overflow: hidden;
+    padding: 4px;
+    border: 0;
 }
 .card img {
-    width: 103%;
     transition: 0.5s;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1,1);
 }
 .card:hover img {
     transform: scale(1.05);
@@ -113,5 +116,5 @@ img {
 .progress-bar {
     height: 8px;
     background: black;
-    width: 0%;
+    width: 0;
 }
