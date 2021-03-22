@@ -8,15 +8,10 @@
     <meta content="Nand Patel" name="author">
     <title>Film By Nand</title>
 
-    <link href="https://getbootstrap.com/docs/5.0/examples/carousel/" rel="canonical">
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="css/stylesheet.css" rel="stylesheet">
-
-    <script src="js/script.js"></script>
 
 </head>
 
@@ -89,7 +84,12 @@
         <h2 class="text-center">
             FEATURED PHOTOS
         </h2>
-        <div class="carousel slide" data-bs-ride="carousel" id="startingPageCarousel">
+        <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="startingPageCarousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#startingPageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#startingPageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#startingPageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img alt="" class="d-block w-100" src="images/3-2020June/2020june2.jpg">
@@ -102,17 +102,16 @@
                 </div>
             </div>
 
-            <a class="carousel-control-prev" data-bs-slide="prev" href="#startingPageCarousel" role="button">
-                <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#startingPageCarousel"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
-            </a>
-            <a class="carousel-control-next" data-bs-slide="next" href="#startingPageCarousel" role="button">
-                <span aria-hidden="true" class="carousel-control-next-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#startingPageCarousel"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-            </a>
+            </button>
         </div>
     </div>
-
     <!--Collections-->
     <div class="container-xxl collections">
         <div class="row">
@@ -167,9 +166,8 @@
     </div>
 </main>
 
-
-<script src="js/bootstrap.bundle.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 
 </body>
 
