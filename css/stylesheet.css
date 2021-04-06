@@ -15,6 +15,8 @@ body {
 
 ::selection {
     background: coral;
+    -webkit-filter: blur(10px);
+    filter: blur(20px);
 }
 
 nav {
@@ -25,6 +27,7 @@ nav {
 	box-shadow: 0 0 20px -5px;
     padding: 0 !important;
 }
+
 a.navbar-brand {
     font-size: 45px;
 }
@@ -125,3 +128,12 @@ img {
     background: black;
     width: 0;
 }
+
+/* ANIMATED X */
+.navbar-toggle {
+    border: none;
+    box-shadow: none !important;
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+/* END ANIMATED X */

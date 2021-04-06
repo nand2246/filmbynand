@@ -13,6 +13,8 @@
     <!-- Custom styles for this template -->
     <link href="css/stylesheet.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
 </head>
 
 <body>
@@ -23,12 +25,11 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Film By Nand</a>
-            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                    class="navbar-toggler"
-                    data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler navbar-toggle" onclick="rotateNavbarButton()" id="navbar-button"
+                    data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" rotated="false">
+                <i class="bi bi-arrow-down"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="blurred collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a aria-current="page" class="nav-link active" href="#">Home</a>
@@ -43,9 +44,9 @@
                             Collections
                         </a>
                         <ul aria-labelledby="navbarDropdown" class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">March 2020</a></li>
-                            <li><a class="dropdown-item" href="#">April 2020</a></li>
-                            <li><a class="dropdown-item" href="#">June 2020</a></li>
+                            <li><a class="dropdown-item" href="collections/march2020.html">March 2020</a></li>
+                            <li><a class="dropdown-item" href="collections/april2020.html">April 2020</a></li>
+                            <li><a class="dropdown-item" href="collections/june2020.html">June 2020</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -128,7 +129,7 @@
                 </div>
             </a>
 
-            <a class="col-sm-6" href="photos.html">
+            <a class="col-sm-6" href="collections/june2020.html">
                 <div class="card text-dark text-center">
                     <img alt="..." class="card-img" src="images/3-2020June/2020june3.jpg">
                     <div class="card-img-overlay">
