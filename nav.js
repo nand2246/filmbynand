@@ -9,7 +9,7 @@ document.write('<div>\
             <div class="blurred collapse navbar-collapse" id="navbarSupportedContent">\
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">\
                     <li class="nav-item">\
-                        <a aria-current="page" class="nav-link" href="index.html">Home</a>\
+                        <a aria-current="page" class="nav-link" href="/index.html">Home</a>\
                     </li>\
                     <li class="nav-item dropdown">\
                         <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"\
@@ -18,10 +18,10 @@ document.write('<div>\
                             Collections\
                         </a>\
                         <ul aria-labelledby="navbarDropdown" class="dropdown-menu">\
-                            <li><a class="dropdown-item" href="collections/march2020.html">March 2020</a></li>\
-                            <li><a class="dropdown-item" href="collections/april2020.html">April 2020</a></li>\
-                            <li><a class="dropdown-item" href="collections/june2020.html">June 2020</a></li>\
-                            <li><a class="dropdown-item" href="collections/julyaugust2020.html">July-August 2020</a></li>\
+                            <li><a class="dropdown-item" href="/collections/march2020.html">March 2020</a></li>\
+                            <li><a class="dropdown-item" href="/collections/april2020.html">April 2020</a></li>\
+                            <li><a class="dropdown-item" href="/collections/june2020.html">June 2020</a></li>\
+                            <li><a class="dropdown-item" href="/collections/julyaugust2020.html">July-August 2020</a></li>\
                         </ul>\
                     </li>\
                 </ul>\
