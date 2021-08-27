@@ -18,10 +18,10 @@ document.write('<div>\
                             Collections\
                         </a>\
                         <ul aria-labelledby="navbarDropdown" class="dropdown-menu">\
-                            <li><a class="dropdown-item" href="/collections/march2020.html">March 2020</a></li>\
-                            <li><a class="dropdown-item" href="/collections/april2020.html">April 2020</a></li>\
-                            <li><a class="dropdown-item" href="/collections/june2020.html">June 2020</a></li>\
-                            <li><a class="dropdown-item" href="/collections/julyaugust2020.html">July-August 2020</a></li>\
+                            <li><a class="dropdown-item" href="collections/march2020.html">March 2020</a></li>\
+                            <li><a class="dropdown-item" href="collections/april2020.html">April 2020</a></li>\
+                            <li><a class="dropdown-item" href="collections/june2020.html">June 2020</a></li>\
+                            <li><a class="dropdown-item" href="collections/julyaugust2020.html">July-August 2020</a></li>\
                         </ul>\
                     </li>\
                 </ul>\
