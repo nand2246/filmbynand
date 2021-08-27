@@ -9,7 +9,7 @@ document.write('<div>\
             <div class="blurred collapse navbar-collapse" id="navbarSupportedContent">\
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">\
                     <li class="nav-item">\
-                        <a aria-current="page" class="nav-link" href="/index.html">Home</a>\
+                        <a aria-current="page" class="nav-link" href="index.html">Home</a>\
                     </li>\
                     <li class="nav-item dropdown">\
                         <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"\
