@@ -8,23 +8,26 @@
     <meta content="Nand Patel" name="author">
     <title>June 2020 | Film By Nand</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="../css/stylesheet.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
 </head>
 
 <body>
 
 <main>
+    <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">Film By Nand</a>
-            <button class="navbar-toggler navbar-toggle" onclick="rotateNavbarButton()" id="navbar-button"
-                    data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" rotated="false">
+            <button class="navbar-toggler navbar-toggle" data-bs-target="#navbarSupportedContent"
+                    data-bs-toggle="collapse"
+                    id="navbar-button" onclick="rotateNavbarButton()" rotated="false">
                 <i class="bi bi-arrow-down"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -36,7 +39,8 @@
                         <a class="nav-link" href="../photos.html">Photos</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a aria-expanded="false" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                        <a aria-expanded="false" class="nav-link active dropdown-toggle" data-bs-toggle="dropdown"
+                           href="#"
                            id="navbarDropdown"
                            role="button">
                             Collections
@@ -52,61 +56,61 @@
         </div>
     </nav>
 
+    <!-- Progress Bar -->
     <div class="progress-container fixed-top">
         <div class="progress-bar" id="myBar"></div>
     </div>
 
+    <!-- Photos -->
     <div class="container-xxl first-on-page">
         <div class="photos row">
             <div class="col-lg-6">
                 <img alt="test" src="../images/3-2020June/2020june1.jpg">
             </div>
             <div class="col-lg-6">
-                <img alt="test" src="../images/3-2020June/2020june2.jpg">
-            </div>
-            <div class="col-6">
-                <img alt="test" src="../images/3-2020June/2020june3.jpg">
-            </div>
-            <div class="col-6">
                 <img alt="test" src="../images/3-2020June/2020june4.jpg">
             </div>
-            <div class="">
+            <div class="col-12">
                 <img alt="test" src="../images/3-2020June/2020june5.jpg">
             </div>
-            <div class="col-sm-4">
-                <img alt="test" src="../images/3-2020June/2020june6.jpg">
+            <div class="col-lg-6">
+                <img alt="test" src="../images/3-2020June/2020june3.jpg">
             </div>
-            <div class="col-sm-4">
+            <div class="col-lg-6">
+                <img alt="test" src="../images/3-2020June/2020june2.jpg">
+            </div>
+            <div class="col-lg-6">
                 <img alt="test" src="../images/3-2020June/2020june7.jpg">
             </div>
-            <div class="col-sm-4">
+            <div class="col-lg-6">
                 <img alt="test" src="../images/3-2020June/2020june8.jpg">
             </div>
-            <div class="col-sm-6">
-                <img alt="test" src="../images/3-2020June/2020june9.jpg">
-            </div>
-            <div class="col-sm-6">
-                <img alt="test" src="../images/3-2020June/2020june10.jpg">
-            </div>
-            <div class="">
+            <div class="col-12">
                 <img alt="test" src="../images/3-2020June/2020june11.jpg">
             </div>
-            <div class="col-sm-6">
+            <div class="col-lg-6">
+                <img alt="test" src="../images/3-2020June/2020june9.jpg">
+            </div>
+            <div class="col-lg-6">
+                <img alt="test" src="../images/3-2020June/2020june10.jpg">
+            </div>
+
+            <div class="col-lg-6">
                 <img alt="test" src="../images/3-2020June/2020june12.jpg">
             </div>
-            <div class="col-sm-6">
+            <div class="col-lg-6">
                 <img alt="test" src="../images/3-2020June/2020june13.jpg">
             </div>
-            <div class="col-6">
+            <div class="col-12">
                 <img alt="test" src="../images/3-2020June/2020june14.jpg">
             </div>
-            <div class="col-6">
+            <div class="col-lg-4">
                 <img alt="test" src="../images/3-2020June/2020june15.jpg">
             </div>
-            <div class="">
+            <div class="col-lg-4">
                 <img alt="test" src="../images/3-2020June/2020june16.jpg">
             </div>
-            <div class="col-6">
+            <div class="cocol-lg-4l-4">
                 <img alt="test" src="../images/3-2020June/2020june17.jpg">
             </div>
         </div>
@@ -114,7 +118,9 @@
 </main>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="../js/script.js"></script>
 
 </body>

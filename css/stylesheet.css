@@ -24,39 +24,47 @@ nav {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 30px;
-	box-shadow: 0 0 20px -5px;
+    box-shadow: 0 0 20px -5px;
     padding: 0 !important;
 }
 
 a.navbar-brand {
     font-size: 45px;
 }
+
 .first-on-page {
     margin-top: 100px !important;
 }
+
 img {
     margin: 0;
     width: 100%;
 }
+
 .collections > div > a {
     margin-bottom: 25px;
 }
+
 .photos {
     margin: 10px;
 }
+
 .photos > div {
     margin-bottom: 10px;
 }
+
 .carousel {
     margin: auto;
 }
-#startingPageCarousel > div > button{
+
+#startingPageCarousel > div > button {
     height: 10px;
     width: 10px;
     border-radius: 50%;
     margin-left: 10px;
     margin-right: 10px;
 }
+
 #nand {
     width: 100%;
     max-width: 150px;
@@ -65,6 +73,7 @@ img {
     box-shadow: 0 0 20px -10px black;
     text-align: center;
 }
+
 .profile {
     background-color: #badbcc;
     color: white;
@@ -74,45 +83,56 @@ img {
     vertical-align: center;
     font-size: x-large;
 }
+
 .profile h1 {
     margin-top: 10px;
     font-size: 200%;
     font-weight: bold;
 }
+
 .container-xxl {
     max-width: 1300px;
 }
+
 .card {
     overflow: hidden;
     padding: 4px;
     border: 0;
 }
+
 .card img {
     transition: 0.5s;
     -webkit-backface-visibility: hidden;
-    -webkit-transform: translateZ(0) scale(1,1);
+    -webkit-transform: translateZ(0) scale(1, 1);
 }
+
 .card:hover img {
     transform: scale(1.05);
 }
+
 @media (max-width: 575px) {
     a.navbar-brand {
         font-size: 34px;
     }
+
     .navbar-toggler {
         width: 25px;
         padding: 0;
     }
+
     .navbar-toggler-icon {
         width: 10px;
     }
+
     .first-on-page {
         margin-top: 80px !important;
     }
+
     .profile {
         text-align: center;
     }
 }
+
 /* The progress container (grey background) */
 .progress-container {
     width: 100%;
@@ -136,4 +156,5 @@ img {
     transform: rotate(0deg);
     transition: 0.5s;
 }
+
 /* END ANIMATED X */

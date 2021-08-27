@@ -8,12 +8,13 @@
     <meta content="Nand Patel" name="author">
     <title>Film By Nand</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/stylesheet.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
 </head>
 
@@ -25,8 +26,8 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Film By Nand</a>
-            <button class="navbar-toggler navbar-toggle" onclick="rotateNavbarButton()" id="navbar-button"
-                    data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" rotated="false">
+            <button class="navbar-toggler navbar-toggle" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+                    id="navbar-button" onclick="rotateNavbarButton()" rotated="false">
                 <i class="bi bi-arrow-down"></i>
             </button>
             <div class="blurred collapse navbar-collapse" id="navbarSupportedContent">
@@ -84,9 +85,12 @@
         </h2>
         <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="startingPageCarousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#startingPageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#startingPageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#startingPageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button aria-current="true" aria-label="Slide 1" class="active" data-bs-slide-to="0"
+                        data-bs-target="#startingPageCarousel" type="button"></button>
+                <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#startingPageCarousel"
+                        type="button"></button>
+                <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#startingPageCarousel"
+                        type="button"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -100,12 +104,14 @@
                 </div>
             </div>
 
-            <button class="carousel-control-prev" type="button" data-bs-target="#startingPageCarousel"  data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#startingPageCarousel"
+                    type="button">
+                <span aria-hidden="true" class="carousel-control-prev-icon"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#startingPageCarousel"  data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#startingPageCarousel"
+                    type="button">
+                <span aria-hidden="true" class="carousel-control-next-icon"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
@@ -118,7 +124,7 @@
                 COLLECTIONS
             </h2>
 
-            <a class="col-sm-6" href="photos.html">
+            <a class="col-sm-6" href="collections/julyaugust2020.html">
                 <div class="card text-white text-center">
                     <img alt="..." class="card-img" src="images/4-2020JulyAugust/2020JulyAugust9.jpg">
                     <div class="card-img-overlay">
@@ -165,7 +171,9 @@
     </div>
 </main>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>
 
 </body>
