@@ -25,9 +25,6 @@ document.write('<div>\
                         <li><a class="dropdown-item" href="/collections/winter2020.html">Winter 2020</a></li>\
                     </ul>\
                 </li>\
-                <li class="nav-item">\
-                    <a aria-current="page" class="nav-link" href="/login.html">Login</a>\
-                </li>\
             </ul>\
         </div>\
     </div>\
