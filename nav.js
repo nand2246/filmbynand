@@ -39,7 +39,7 @@ document.write('<div>\
 let test = window.location.pathname;
 test = test.split("/").pop();
 
-if (test === "index.html") {
+if (test === "index.html" || test === "") {
     document.getElementsByClassName("nav-link").item(0).classList.add("active");
     document.getElementsByClassName("nav-link").item(0).href = "#";
 } else if (test === "march2020.html") {
