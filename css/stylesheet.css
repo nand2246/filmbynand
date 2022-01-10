@@ -143,7 +143,7 @@ img {
 .progress-container {
     width: 100%;
     height: 8px;
-    background: white;
+    background: #7e775b;
     margin: 0;
 
 }
@@ -151,11 +151,11 @@ img {
 /* The progress bar (scroll indicator) */
 .progress-bar {
     height: 8px;
-    background: black;
+    background: #fffde8;
     width: 0;
 }
 
-/* ANIMATED X */
+/* animated arrow */
 .navbar-toggle {
     border: none;
     box-shadow: none !important;
