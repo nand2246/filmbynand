@@ -34,6 +34,15 @@ a.navbar-brand {
     font-size: 45px;
 }
 
+.dropdown-menu .dropdown-item{
+    background: #fffde8;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background: #7e775b;
+    color: #fffde8;
+}
+
 .dropdown-menu  .dropdown-item:active{
     background: rgb(59, 49, 26);
 }
