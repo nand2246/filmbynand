@@ -1,5 +1,5 @@
 document.write('<div>\
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">\
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">\
     <div class="container-fluid">\
         <a class="navbar-brand" href="#">Film By Nand</a>\
         <button class="navbar-toggler navbar-toggle" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"\

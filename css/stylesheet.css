@@ -3,6 +3,7 @@
 body {
     font-family: 'Playfair Display', serif;
     margin-bottom: 25px;
+    background: #fffde8;
 }
 
 .container-xxl {
@@ -26,10 +27,15 @@ nav {
     font-size: 30px;
     box-shadow: 0 0 20px -5px;
     padding: 0 !important;
+    background: #7e775b;
 }
 
 a.navbar-brand {
     font-size: 45px;
+}
+
+.dropdown-menu  .dropdown-item:active{
+    background: rgb(59, 49, 26);
 }
 
 .first-on-page {
@@ -75,7 +81,7 @@ img {
 }
 
 .profile {
-    background-color: #badbcc;
+    background-color:#7e775b;
     color: white;
     padding-top: 25px;
     padding-bottom: 25px;
