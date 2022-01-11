@@ -42,6 +42,10 @@ nav {
     color: rgb(255, 255, 255);
 }
 
+nav .bi-arrow-down {
+    color: #38a157;
+}
+
 nav a.navbar-brand {
     font-size: 45px;
 }
@@ -209,7 +213,7 @@ nav a {
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 425px) {
     html main nav a.navbar-brand {
         font-size: 28px;
     }
