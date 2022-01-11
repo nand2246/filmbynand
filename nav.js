@@ -1,7 +1,7 @@
 document.write('<div>\
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark">\
+<nav class="navbar fixed-top navbar-expand-lg">\
     <div class="container-fluid">\
-        <a class="navbar-brand" href="#">Film By Nand</a>\
+        <a class="navbar-brand" href="https://www.filmbynand.com">Film By Nand</a>\
         <button class="navbar-toggler navbar-toggle" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"\
                 id="navbar-button" onclick="rotateNavbarButton()" rotated="false">\
             <i class="bi bi-arrow-down"></i>\

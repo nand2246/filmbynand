@@ -1,50 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-body {
-    font-family: 'Playfair Display', serif;
+html > body > main {
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 25px;
-    background: #fffde8;
+    color: #38a157;
+    font-weight: 100;
+}
+
+h2 { 
+    font-weight: 700;
 }
 
 .container-xxl {
     margin-bottom: 25px;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 ::selection {
     background: coral;
-    -webkit-filter: blur(10px);
-    filter: blur(20px);
-}
-
-nav {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-size: 30px;
-    box-shadow: 0 0 20px -5px;
-    padding: 0 !important;
-    background: #7e775b;
-}
-
-a.navbar-brand {
-    font-size: 45px;
-}
-
-.dropdown-menu .dropdown-item{
-    background: #fffde8;
-}
-
-.dropdown-menu .dropdown-item:hover {
-    background: #7e775b;
-    color: #fffde8;
-}
-
-.dropdown-menu  .dropdown-item:active{
-    background: rgb(59, 49, 26);
 }
 
 .first-on-page {
@@ -56,18 +28,74 @@ img {
     width: 100%;
 }
 
-.collections > div > a {
-    margin-bottom: 25px;
+/* NAVBAR */
+::-webkit-scrollbar {
+    display: none;
 }
 
-.photos {
-    margin: 10px;
+nav {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    padding: 0 !important;
+    background: #68ac5e21;
+    color: rgb(255, 255, 255);
+}
+
+nav a.navbar-brand {
+    font-size: 45px;
+}
+
+nav .active {
+    color: #13351d;
+}
+
+.dropdown { 
+    position: static; 
+}
+
+.dropdown-menu {
+    width: 100%;
+    padding: 0ch;
+    margin: 0ch;
+    text-align: center; 
+    border-radius: 0ch;
+}
+
+.dropdown-menu>li {
+    display: inline-block; 
+}
+
+nav a {
+    font-weight: 300;
+    color: #38a157;
+}
+
+.dropdown-menu {
+    background: #38a157;
+    border-width: 0ch;
+}
+
+.dropdown-menu a {
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.dropdown-menu a:hover {
+    color: #38a157;
+}
+.dropdown-menu a:active {
+    background: #38a157;
+}
+.collections > div > a {
+    margin-bottom: 25px;
 }
 
 .photos > div {
     margin-bottom: 10px;
 }
 
+/* CAROUSEL */
 .carousel {
     margin: auto;
 }
@@ -80,6 +108,8 @@ img {
     margin-right: 10px;
 }
 
+/* PROFILE */
+
 #nand {
     width: 100%;
     max-width: 150px;
@@ -90,29 +120,36 @@ img {
 }
 
 .profile {
-    background-color:#7e775b;
-    color: white;
+    background-color:#093316;
+    color: #38a157;
     padding-top: 25px;
     padding-bottom: 25px;
     margin: auto auto 25px;
     vertical-align: center;
     font-size: x-large;
+    font-weight: 600;
 }
 
 .profile h1 {
     margin-top: 10px;
     font-size: 200%;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .container-xxl {
     max-width: 1300px;
 }
 
+/* COLLECTION CARDS */
+
 .card {
     overflow: hidden;
     padding: 4px;
     border: 0;
+}
+
+.card-title {
+    font-weight: 300;
 }
 
 .card img {
@@ -125,7 +162,31 @@ img {
     transform: scale(1.05);
 }
 
-@media (max-width: 575px) {
+#winter2020text {
+    color: #e7cc73;
+}
+
+#june2020text {
+    color: #c79780
+}
+
+#julyaugust2020text {
+    color: #6a3d2c;
+}
+
+#april2020text {
+    color: #cdced2;
+}
+
+#march2020text {
+    color: #6f431c;
+}
+
+.photos {
+    margin: 10px;
+}
+
+@media (max-width: 50px) {
     a.navbar-brand {
         font-size: 34px;
     }
@@ -148,11 +209,17 @@ img {
     }
 }
 
+@media (max-width: 410px) {
+    html main nav a.navbar-brand {
+        font-size: 28px;
+    }
+}
+
 /* The progress container (grey background) */
 .progress-container {
     width: 100%;
     height: 8px;
-    background: #7e775b;
+    background: #093316;
     margin: 0;
 
 }
